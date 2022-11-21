@@ -1,0 +1,161 @@
+:root {
+    --royal-blue-light: #d940ed17;
+    --royal-blue-dark: #3946d4;
+    --white: #fff;
+    --background: #e2e3e9;
+}
+
+* {
+    margin: auto;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(38, 7, 68);
+    background-color: rgb(212, 212, 212);
+    background-image: url(https://c.pxhere.com/photos/9d/d3/wellness_massage_relax_relaxing_spa_relaxation_physiotherapy_recover-764470.jpg!d);
+    background-size: contain;
+    max-height: 100%;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+p{
+    font-family: minhaFonte;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(img/capainfo.jpg);
+    background-size: cover;
+}
+
+.agendar{
+    background-color: purple;
+    padding: 1%;
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.agendar-link {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0);
+    background-color: white;
+    margin-top: 10%;
+}
+
+.agendar-link:hover {
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+    border-left: 4px solid rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255);
+    transition: 0.3s ease;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0);
+    font-size: 1.2em;
+}
+
+.rodape{
+    color: rgba(0, 0, 0, 0.418);
+    text-align: center;
+    padding: auto;
+    margin-top: 2%;
+}
+
+li {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.cardapio :hover {
+    transition: 0.3s ease;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: #00000025;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4.6875rem;
+    color: rgb(142, 11, 175);
+    background-color: #0000000c;
+}
+
+.logo1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fbf7fc;
+}
+
+.menu{
+    padding: 1%;
+    text-align: end;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu a {
+    gap: 0.5rem;
+    display: block;
+}
+
+.menu--option{
+    transition: 0.3s ease;
+    border-bottom: 4px solid rgba(234, 7, 255, 0);
+    padding: 1% 0;
+    margin: 0px 2%;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+.menu--option:hover{
+    border-bottom: 4px solid rgb(234, 7, 255);
+    padding: 0.4% 0;
+}
+
+
+
+section {
+    height: 90vh;
+}
+
+@font-face {
+    font-family: minhaFonte;
+    src: url(/Lobster-Regular.ttf);
+}
